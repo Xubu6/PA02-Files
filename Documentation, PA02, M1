@@ -1,0 +1,11 @@
+Documentation
+PA02 Milestone 1 
+
+	To complete this milestone, we first chose the laptop that we will be using to run vagrant and create the VM. 
+  We then installed vagrant on that machine. Then we changed the Vagrant file to allow for shell provisioning 
+  and created a bootstrap.sh file to install Python, Java, and ansible when the VM is spawned. Next, we cloned 
+  the git repo and added the MyInventory file to the .ansible directory in the vagrant VM. In this file we listed 
+  our VMs. We also detailed our private key file in this file. We also had to download the clouds.yaml file and 
+  place it in the config/openstack directory. We were then able to use the vagrantup command to spawn the VM with 
+  all the necessary installations. We made necessary changes to the ansible.cfg file and /etc/ansible/hosts files. 
+  We also can ssh into the cloud VM on Chameleon and ping it. 
